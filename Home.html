@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Supplies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="container">
+        <!-- <h1>Chemical Supplies</h1> -->
+        <div class="toolbar">
+            <span class="title">
+                <h2>Chemical Supplies</h2>
+            </span>
+            
+            <span class="material-symbols-outlined btn active_filter" onclick="addRow()">add_circle</span>
+            <span class="material-symbols-outlined btn active_filter" id="moveUp" onclick="moveRowUp()">arrow_upward</span>
+            <span class="material-symbols-outlined btn" id="moveDown" onclick="moveRowDown()">arrow_downward</span>
+            <span class="material-symbols-outlined btn delete_btn" onclick="deleteRow()"> delete </span>
+            <span class="material-symbols-outlined btn active_filter" onclick="refreshTable()">replay</span>
+            <span class="material-symbols-outlined btn active_filter"  onclick="saveTable()"> save </span>
+        </div>
+        <table id="chemicalTable">
+            <thead>
+                <tr>
+                    <th>✔️</th>
+                    <th onclick="sortTable(1)">ID</th>
+                    <th onclick="sortTable(2)">Chemical Name</th>
+                    <th onclick="sortTable(3)">Vendor</th>
+                    <th onclick="sortTable(4)">Density <br>(g/m³)</th>
+                    <th onclick="sortTable(5)">Viscosity <br>(m²/s)</th>
+                    <th onclick="sortTable(6)">Packaging</th>
+                    <th onclick="sortTable(7)">Pack Size</th>
+                    <th onclick="sortTable(8)">Unit</th>
+                    <th onclick="sortTable(9)">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
+
+    <script src="table_script.js"></script>
+</body>
+</html>

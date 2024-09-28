@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.toolbar .title {
+    flex: auto;
+}
+
+button {
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.material-symbols-outlined{
+    font-weight: 700 !important;
+}
+
+.selected {
+    color: black;
+    cursor: pointer;
+}
+
+.checkmark{
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.active_filter {
+    color: blue;
+}
+
+.delete_btn{
+    color: red;
+}
+
+
+@media screen and (max-width: 600px) {
+    .toolbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    th, td {
+        font-size: 12px;
+    }
+}
