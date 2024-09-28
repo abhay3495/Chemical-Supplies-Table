@@ -42,14 +42,19 @@ To get started with the project, follow these steps:<br />
      
 **2. Add a New Row**<br />
    * Click the "Add Row" button in the toolbar to insert a new row at the bottom of the table.<br />
+   
 **3. Edit Data**<br />
   * Click on any cell (except the ID column) to edit its contents. Make sure to enter valid numeric values where required.<br />
+  
 **4. Delete a Row** <br />
   * Select a row by clicking the ✔️ mark, then click "Delete Row" to remove it from the table.<br />
+  
 **5. Save Data** <br />
   * After making changes, click the "Save Data" button to save your work to localStorage.<br />
+  
 **6. Refresh Data** <br />
   * Click the "Refresh Data" button to reset the table to its default state.<br />
+  
 **7. Sorting** <br />
   * Click on any column header to sort the table by that column. Click again to toggle between ascending and descending order.<br />
 
