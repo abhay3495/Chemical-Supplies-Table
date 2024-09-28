@@ -19,7 +19,7 @@ The Chemical Supplies Table web application is a dynamic and responsive tool des
 To get started with the project, follow these steps:<br />
 
 * Clone the Repository<br />
-  git clone https://github.com/your-username/chemical-supplies-table.git
+  git clone https://github.com/abhay3495/Chemical-Supplies-Table.git
   
 * Navigate to the Project Directory <br />
   cd chemical-supplies-table
